@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" id="likeNature">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QUESTION </title>
+    <style>
+
+
+
+.radio-label {
+  margin-right: 3%;
+}
+
+fieldset {
+    text-align: center;
+}
+div {
+     display:inline;
+        border: 1px solid black;
+}
+
+body
+{
+
+  transform: translate(-50%, -40%);
+    position:                        absolute;
+    height:                             768px;
+    width:                             1024px;
+    left:                                 50%;
+    top:                                  50%;
+}
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+
+
+ input[type=radio] {
+     transform: scale(2);
+}
+    </style>
+
+<script>
+
+       function ready() {
+
+
+         document.getElementById('box').style.display = 'none';
+       document.getElementById('imagefile').style.display = 'block';
+      // document.getElementById('div1').innerHTML = document.getElementById('img1')
+
+       setTimeout("coord()",3000)
+
+
+}
+</script>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/getcd.js') }}"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+</head>
+
+<body bgcolor="black" text="gray" id="image" >
+
+
+<span id="box" style="display:inline-block;border:1px solid black ;width:240px;height:210px;"></span>
+
+
+<img src="{{ url_for('static', filename = 'images/nature1.jpg') }}" style="display:none; margin:0 auto" height="220" width="220" id="imagefile" alt="not loaded">
+
+
+
+
+
+
+    <div align="center" id="ready" text-align="center" style="display:block; margin:0 auto">
+ Press the button to view the image
+<button type="button" onclick="ready()">Yes</button>
+</div>
+
+<p align="center" id = "ques"> <font size="10"> Would you like to visit this place?</font> </p>
+
+
+
+<br>
+<form action="" method="post">
+
+<fieldset>
+    <legend>CHOOSE ONE:</legend>
+    <div>
+          <input class="radio-input" type="radio" name="test" value="yes" id="yes" required="required" />
+        <label class="radio-label"><font size="6">Yes</font></label>
+        <input class="radio-input" type="radio" name="test" id="no" value="no" />
+        <label class="radio-label"><font size="6"> No</font></label>
+        <input class="radio-input" type="radio" name="test" id="maybe" value="maybe" />
+        <label class="radio-label"><font size="6">Maybe</font> </label>
+    </div>
+</fieldset>
+
+
+ <input id="submit" type="submit" value="Next" style="margin:auto;display:block" >
+</form>
+
+
+<br>
+
+
+<br>
+
+</body>
+</html>

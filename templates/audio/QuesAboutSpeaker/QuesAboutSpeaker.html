@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" id="QuesAboutSpeaker">
+
+<head>
+    <meta charset="UTF-8">
+    <title>QUESTION </title>
+    <style>
+
+#player {
+    display: table;
+    margin: 0 auto;
+}
+
+.radio-label {
+  margin-right: 3%;
+}
+
+fieldset {
+    text-align: center;
+}
+div {
+     display:inline;
+        border: 1px solid black;
+}
+
+ input[type=radio] {
+     transform: scale(2);
+}
+body
+{
+
+transform: translate(-50%, -40%);
+    position:                        absolute;
+    height:                             768px;
+    width:                             1024px;
+    left:                                 50%;
+    top:                                  50%;
+}
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+    </style>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/getcd.js') }}"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>
+
+       function ready() {
+
+
+         document.getElementById('box').style.display = 'none';
+       document.getElementById('aud').style.display = 'block';
+      // document.getElementById('div1').innerHTML = document.getElementById('img1')
+       clearInterval(interval);
+       setTimeout("coord()",3000)
+
+
+}
+</script>
+</head>
+
+<body bgcolor="black" text="gray" id="audio" onload=setTimeout("coord()",5000)>
+
+
+<div align="center" id="player"  >
+
+<span id="box" style="display:inline-block;border:1px solid black ;width:50px;height:100px;"></span>
+
+
+
+<audio controls id="aud"  style="display:none; margin:1px auto">
+  <source src="{{ url_for('static', filename = 'audio/human-speak/MartinLK.wav') }}" type="audio/wav" id="audiofile" >
+
+</audio>
+
+<div>
+
+
+    <div id="ready" text-align="center" style="display:block; margin:0 auto">
+ Press the button to play the audio
+<button type="button" onclick="ready()">Yes</button>
+</div>
+</div>
+
+<p align="center" id = "ques"> <font size="10"> Do you know the speaker? </font> </p>
+
+<br>
+<form method="post" action="">
+<fieldset>
+    <legend>CHOOSE ONE:</legend>
+    <div>
+         <input class="radio-input" type="radio" name="test" value="yes" id="yes" required="required" />
+        <label class="radio-label"><font size="6">Yes</font></label>
+        <input class="radio-input" type="radio" name="test" id="no" value="no" />
+        <label class="radio-label"><font size="6"> No</font></label>
+        <input class="radio-input" type="radio" name="test" id="maybe" value="maybe" />
+        <label class="radio-label"><font size="6">Maybe</font> </label>
+    </div>
+</fieldset>
+
+<br>
+
+
+<br>
+
+ <input id="submit" type="submit" value="Next" style="margin:auto;display:block" >
+</form>
+
+
+<br>
+
+
+<br>
+
+</body>
+</html>

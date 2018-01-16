@@ -1,0 +1,13 @@
+AboutNtu1,text,Do you like to work in NTU?,text/QuesAboutNTU/option-type/AboutNtu1.html
+ntuCanteen,text,Rate the food of the NTU Canteen,text/QuesAboutNTU/rating-type/ntuCanteen.html
+Image-NTU1,image,Do you know this place?,image/QuesAboutNTU/Image-NTU1.html
+QuesAboutSpeaker,audio,Do you know the speaker?,audio/QuesAboutSpeaker/QuesAboutSpeaker.html
+nature1,video,Did you like the video?,video/nature-based/nature1.html
+ntuHalls,text,Do you like to live in NTU Hall?,text/QuesAboutNTU/option-type/ntuHalls.html
+musicQues,text,Do you like to listen to music?,text/generalQues/option-type/musicQues.html
+residentSgp,text, Are you a resident of Singapore?,text/generalQues/option-type/residentSgp.html
+likeNature,image,Would you like to visit this place?,image/QuesOnNature/likeNature.html
+rateNTU,text,Rate NTU based on academics and overall performance,text/QuesAboutNTU/rating-type/rateNTU.html
+speakerBased,video,Do you know the speaker?,video/speaker/speakerBased.html
+speakerBased2,video,Do you know the speaker?,video/speaker/speakerBased2.html
+KnowMusic,audio,Do you know the music?,audio/music/KnowMusic.html

@@ -1,0 +1,123 @@
+<!DOCTYPE html >
+<html lang="en" id="speakerBased">
+
+<head>
+    <meta charset="UTF-8">
+    <title>video based</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <style>
+
+#player {
+    display: table;
+    margin: 0 auto;
+}
+
+.radio-label {
+  margin-right: 3%;
+}
+
+fieldset {
+    text-align: center;
+}
+div {
+     display:inline;
+        border: 1px solid black;
+}
+body
+{
+transform: translate(-50%, -40%);
+
+
+    position:                        absolute;
+    height:                             768px;
+    width:                             1024px;
+    left:                                 50%;
+    top:                                  50%;
+}
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+ input[type=radio] {
+     transform: scale(2);
+}
+    </style>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/getcd.js') }}"></script>
+<script>
+
+       function ready() {
+
+
+         document.getElementById('box').style.display = 'none';
+       document.getElementById('videofile').style.display = 'block';
+      // document.getElementById('div1').innerHTML = document.getElementById('img1')
+
+       setTimeout("coord()",3000)
+
+
+}
+</script>
+
+
+</head>
+
+<body bgcolor="black" text="gray" id="video"  >
+
+
+
+
+<div align="center" id="player"  >
+
+<span id="box" style="display:inline-block;border:1px solid black ;width:260px;height:260px;"></span>
+
+ <video  id="videofile" height="250" width="250" style="display:none; margin:1px auto"   >
+     <source src="{{ url_for('static', filename = 'video/speaker/obama.mp4') }}" type="video/mp4">
+</video>
+
+
+
+    <div id="ready" text-align="center" style="display:block; margin:0 auto">
+ Press the button to play the video
+<button type="button" onclick="ready()">View</button>
+</div>
+
+
+
+<p align="center" id = "ques"> <font size="10"> Do you know the speaker in the video? </font> </p>
+    <br>
+
+
+<br>
+<form method="post" action="">
+<fieldset>
+    <legend>CHOOSE ONE:</legend>
+    <div>
+         <input class="radio-input" type="radio" name="test" value="yes" id="yes" required="required"/>
+        <label class="radio-label"><font size="6">Yes</font></label>
+        <input class="radio-input" type="radio" name="test" id="no" value="no" />
+        <label class="radio-label"><font size="6"> No</font></label>
+        <input class="radio-input" type="radio" name="test" id="maybe" value="maybe" />
+        <label class="radio-label"><font size="6">Maybe</font> </label>
+    </div>
+</fieldset>
+
+<br>
+
+
+<br>
+
+ <input id="submit" type="submit" value="Next" style="margin:auto;display:block" >
+</form>
+
+
+<br>
+
+
+<br>
+</div>
+</body>
+</html>

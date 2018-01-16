@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADMIN</title>
+</head>
+<body bgcolor="black" text="gray">
+{% with messages = get_flashed_messages() %}
+  {% if messages %}
+    <ul class=flashes>
+    {% for message in messages %}
+      <li>{{ message }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endwith %}
+
+<br>
+<form method="post" action="" >
+LOGIN:<br>
+    <br>  <span align="center"> Username:  <input class="login" type="text" name="adminname" /></span><br>
+<br>
+
+
+Password: <input class="pwd" type="password" name="adminpwd" />
+    <br>
+<br>
+
+User ID    :   <input class="userid" type="text" name="userid" /><br><br>
+User Name  :   <input class="username" type="text" name="username" /><br><br>
+Quiz ID    :   <input class="quiznum" type="text" name="quiznum" /><br><br>
+Date    :   <input class="date" type="text" name="date" /><br><br>
+Start Question for playback  :   <input class="startq" type="text" name="startq" /><br><br>
+End Question for playback    :   <input class="endq" type="text" name="endq" /><br><br>
+
+
+<br><br>
+ <input name="submit" type="submit" value="record" style="margin:auto;display:block" >
+
+<br><br>
+
+
+ <input name="submit" type="submit" value="playback" style="margin:auto;display:block" >
+
+
+
+
+</form>
+
+
+</body>
+</html>

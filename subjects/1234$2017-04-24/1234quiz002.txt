@@ -1,0 +1,314 @@
+mouse move;75137187;(731, 436)
+mouse move;75137203;(729, 436)
+mouse move;75137218;(727, 435)
+mouse move;75137234;(720, 435)
+mouse move;75137250;(715, 434)
+mouse move;75137265;(709, 434)
+mouse move;75137265;(697, 429)
+mouse move;75137281;(689, 428)
+mouse move;75137296;(675, 426)
+mouse move;75137312;(670, 424)
+mouse move;75137343;(662, 423)
+mouse move;75137359;(658, 423)
+mouse move;75137375;(654, 423)
+mouse move;75137375;(650, 423)
+mouse move;75137390;(649, 423)
+mouse move;75137406;(645, 421)
+mouse move;75137437;(643, 421)
+mouse move;75137453;(641, 421)
+mouse move;75137468;(640, 421)
+mouse move;75137484;(639, 420)
+mouse move;75137500;(638, 420)
+mouse move;75137515;(638, 420)
+mouse move;75137578;(638, 420)
+mouse move;75137593;(638, 419)
+mouse move;75137609;(637, 419)
+mouse move;75137625;(637, 419)
+mouse move;75137640;(637, 418)
+mouse move;75137656;(636, 418)
+mouse move;75137671;(636, 417)
+mouse move;75137687;(635, 417)
+mouse move;75137703;(635, 417)
+mouse move;75137718;(634, 417)
+mouse move;75137734;(634, 417)
+mouse move;75137765;(633, 417)
+mouse move;75137781;(633, 417)
+mouse move;75137796;(633, 417)
+mouse move;75137796;(632, 416)
+mouse move;75137812;(631, 416)
+mouse move;75137828;(631, 416)
+mouse move;75137843;(630, 416)
+mouse move;75137875;(629, 416)
+mouse move;75137890;(628, 416)
+mouse move;75137937;(627, 416)
+mouse move;75137953;(626, 416)
+mouse move;75138171;(626, 416)
+mouse move;75138250;(626, 416)
+mouse move;75138265;(625, 416)
+mouse move;75138281;(624, 416)
+mouse move;75138296;(623, 417)
+mouse move;75138359;(621, 417)
+mouse left down;75138515;(621, 417)
+mouse left up;75138656;(621, 417)
+mouse move;75138781;(621, 417)
+mouse move;75138796;(624, 420)
+mouse move;75138812;(627, 423)
+mouse move;75138828;(634, 428)
+mouse move;75138859;(648, 437)
+mouse move;75138859;(656, 444)
+mouse move;75138875;(659, 452)
+mouse move;75138906;(663, 463)
+mouse move;75138921;(667, 469)
+mouse move;75138953;(668, 472)
+mouse move;75139109;(671, 483)
+mouse move;75139125;(673, 489)
+mouse move;75139156;(674, 492)
+mouse move;75139359;(674, 492)
+mouse move;75139421;(675, 492)
+mouse move;75139437;(675, 492)
+mouse left down;75139625;(675, 492)
+mouse left up;75139750;(675, 492)
+mouse move;75140843;(677, 490)
+mouse move;75140843;(680, 489)
+mouse move;75140875;(687, 484)
+mouse move;75140890;(689, 481)
+mouse move;75140906;(691, 480)
+mouse move;75140921;(692, 478)
+mouse move;75141015;(693, 465)
+mouse move;75141046;(691, 452)
+mouse move;75141062;(690, 450)
+mouse move;75141093;(683, 442)
+mouse move;75141156;(673, 435)
+mouse move;75141203;(665, 432)
+mouse move;75141218;(661, 431)
+mouse move;75141250;(658, 429)
+mouse move;75141281;(655, 428)
+mouse move;75141296;(654, 428)
+mouse move;75141312;(653, 426)
+mouse move;75141937;(653, 426)
+mouse move;75141984;(653, 426)
+mouse move;75142000;(653, 426)
+mouse move;75142015;(653, 428)
+mouse move;75142031;(653, 428)
+mouse move;75142062;(653, 429)
+mouse move;75142078;(653, 431)
+mouse move;75142093;(653, 432)
+mouse move;75142125;(653, 433)
+mouse move;75142125;(653, 433)
+mouse move;75142328;(653, 433)
+mouse move;75142343;(653, 433)
+mouse move;75142343;(653, 433)
+mouse move;75142375;(658, 434)
+mouse move;75142390;(660, 434)
+mouse move;75142390;(671, 433)
+mouse move;75142421;(681, 430)
+mouse move;75142437;(712, 426)
+mouse move;75142453;(725, 421)
+mouse move;75142468;(758, 413)
+mouse move;75142484;(779, 407)
+mouse move;75142500;(793, 400)
+mouse move;75142531;(805, 395)
+mouse move;75146859;(821, 384)
+mouse move;75146875;(852, 368)
+mouse move;75146890;(881, 357)
+mouse move;75146906;(936, 334)
+mouse move;75146921;(967, 327)
+mouse move;75146937;(1022, 311)
+mouse move;75146953;(1050, 309)
+mouse move;75146968;(1109, 300)
+mouse move;75146984;(1137, 296)
+mouse move;75147000;(1163, 289)
+mouse move;75147015;(1203, 281)
+mouse move;75147015;(1222, 281)
+mouse move;75147031;(1240, 277)
+mouse move;75147046;(1246, 275)
+mouse move;75147062;(1255, 275)
+mouse move;75147078;(1258, 274)
+mouse move;75147093;(1260, 274)
+mouse move;75147109;(1264, 274)
+mouse move;75147125;(1271, 274)
+mouse move;75147156;(1277, 277)
+mouse move;75147171;(1283, 281)
+mouse move;75147187;(1289, 286)
+mouse move;75147203;(1295, 289)
+mouse move;75147218;(1307, 297)
+mouse move;75147234;(1312, 299)
+mouse move;75147250;(1322, 310)
+mouse move;75147265;(1326, 313)
+mouse move;75147281;(1331, 319)
+mouse move;75147296;(1332, 322)
+mouse move;75147312;(1329, 323)
+mouse move;75147593;(1327, 323)
+mouse move;75147609;(1323, 323)
+mouse move;75147625;(1289, 334)
+mouse move;75147640;(1253, 346)
+mouse move;75147656;(1171, 379)
+mouse move;75147671;(1104, 401)
+mouse move;75147687;(1074, 418)
+mouse move;75147703;(1034, 433)
+mouse move;75147718;(1021, 436)
+mouse move;75147734;(1012, 439)
+key down;75148171;Down
+key down;75148406;Down
+key down;75148562;Down
+mouse move;75148906;(1010, 439)
+mouse move;75148921;(1010, 439)
+mouse move;75148968;(1010, 439)
+mouse move;75148984;(1010, 439)
+mouse move;75149000;(1010, 439)
+mouse left down;75149031;(1010, 439)
+mouse move;75149093;(1010, 439)
+mouse move;75149093;(1010, 440)
+mouse move;75149109;(1010, 441)
+mouse move;75149125;(1010, 446)
+mouse move;75149156;(1010, 458)
+mouse move;75149171;(1010, 472)
+mouse move;75149187;(1010, 487)
+mouse move;75149203;(1010, 502)
+mouse move;75149218;(1012, 511)
+mouse left up;75149234;(1012, 511)
+mouse left down;75149515;(1012, 511)
+mouse move;75149625;(1012, 511)
+mouse move;75149671;(1012, 517)
+mouse move;75149687;(1011, 522)
+mouse move;75149703;(1008, 537)
+mouse move;75149718;(1003, 563)
+mouse move;75149734;(1003, 581)
+mouse move;75149750;(1006, 598)
+mouse move;75149765;(1012, 599)
+mouse left up;75149781;(1012, 599)
+key down;75150203;Down
+key down;75150359;Down
+key down;75150515;Down
+key down;75150671;Down
+key down;75150828;Down
+key down;75151078;Down
+key down;75151234;Down
+key down;75151406;Down
+key down;75151625;Down
+key down;75151828;Down
+key down;75152062;Down
+key down;75152250;Down
+key down;75152437;Down
+key down;75152625;Down
+key down;75152796;Down
+key down;75153296;Down
+key down;75153328;Down
+key down;75153359;Down
+key down;75153390;Down
+key down;75153421;Down
+key down;75153453;Down
+key down;75153484;Down
+key down;75153531;Down
+key down;75153562;Down
+key down;75153593;Down
+key down;75153625;Down
+key down;75153656;Down
+key down;75153687;Down
+key down;75153718;Down
+key down;75153750;Down
+key down;75153781;Down
+key down;75153812;Down
+key down;75153843;Down
+key down;75153875;Down
+key down;75153906;Down
+key down;75153937;Down
+key down;75153968;Down
+key down;75154000;Down
+key down;75154031;Down
+key down;75154062;Down
+key down;75154093;Down
+key down;75154125;Down
+key down;75154156;Down
+key down;75154187;Down
+key down;75154218;Down
+key down;75154250;Down
+key down;75154296;Down
+key down;75154328;Down
+key down;75154359;Down
+key down;75154390;Down
+key down;75154421;Down
+key down;75154453;Down
+key down;75154484;Down
+key down;75154515;Down
+key down;75154546;Down
+key down;75154578;Down
+key down;75154609;Down
+key down;75154640;Down
+key down;75154671;Down
+key down;75154703;Down
+key down;75154734;Down
+key down;75154765;Down
+key down;75154796;Down
+key down;75154828;Down
+key down;75154859;Down
+key down;75154890;Down
+key down;75154921;Down
+key down;75154953;Down
+key down;75154984;Down
+key down;75155015;Down
+key down;75155062;Down
+key down;75155093;Down
+key down;75155125;Down
+key down;75155156;Down
+key down;75155187;Down
+key down;75155218;Down
+key down;75155250;Down
+key down;75155281;Down
+mouse move;75156796;(991, 599)
+mouse move;75156812;(953, 591)
+mouse move;75156828;(906, 578)
+mouse move;75156843;(805, 540)
+mouse move;75156859;(755, 513)
+mouse move;75156875;(640, 434)
+mouse move;75156890;(574, 387)
+mouse move;75156906;(456, 288)
+mouse move;75156921;(404, 242)
+mouse move;75156937;(318, 162)
+mouse move;75156953;(286, 133)
+mouse move;75156968;(280, 130)
+mouse move;75156984;(277, 127)
+mouse move;75157000;(277, 129)
+mouse move;75157015;(280, 133)
+mouse move;75157031;(293, 150)
+mouse move;75157046;(305, 164)
+mouse move;75157062;(344, 216)
+mouse move;75157093;(413, 329)
+mouse move;75157125;(455, 421)
+mouse move;75157140;(495, 509)
+mouse move;75157156;(526, 597)
+mouse move;75157171;(544, 637)
+mouse move;75157187;(562, 705)
+mouse move;75157203;(573, 751)
+mouse move;75157390;(573, 752)
+mouse move;75157406;(573, 752)
+mouse move;75157421;(573, 753)
+mouse move;75157437;(573, 753)
+mouse move;75157453;(573, 754)
+mouse move;75157468;(573, 754)
+mouse move;75157484;(573, 755)
+mouse move;75157500;(573, 755)
+mouse move;75157593;(573, 755)
+mouse move;75157609;(573, 755)
+mouse move;75157640;(574, 755)
+mouse move;75157656;(575, 755)
+mouse move;75157671;(575, 755)
+mouse move;75157703;(575, 755)
+mouse move;75157718;(575, 755)
+mouse move;75157734;(571, 755)
+mouse move;75157750;(570, 755)
+mouse move;75157765;(562, 753)
+mouse move;75157765;(557, 753)
+mouse move;75157796;(546, 752)
+mouse move;75157812;(542, 750)
+mouse move;75157828;(534, 749)
+mouse move;75157843;(531, 748)
+mouse move;75157859;(527, 742)
+mouse move;75158078;(527, 742)
+mouse move;75158093;(527, 742)
+mouse left down;75158125;(527, 742)
+mouse left up;75158265;(527, 742)
+mouse move;75159296;(526, 741)
+mouse move;75159640;(60, 574)
+mouse move;75159734;(-2, 568)
+mouse move;75159796;(-41, 541)

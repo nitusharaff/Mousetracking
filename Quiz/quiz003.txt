@@ -1,0 +1,7 @@
+1,Image-NTU1
+2,QuesAboutSpeaker
+3,nature1
+4,residentSgp
+5,likeNature
+6,AboutNtu1
+7,ntuCanteen

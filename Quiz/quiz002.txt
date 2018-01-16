@@ -1,0 +1,7 @@
+1,residentSgp
+2,likeNature
+3,QuesAboutSpeaker
+4,rateNTU
+5,nature1
+6,AboutNtu1
+7,musicQues

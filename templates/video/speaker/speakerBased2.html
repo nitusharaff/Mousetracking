@@ -1,0 +1,131 @@
+<!DOCTYPE html >
+<html lang="en" id="speakerBased2">
+
+<head>
+    <meta charset="UTF-8">
+    <title>video based</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <style>
+
+#player {
+    display: table;
+    margin: 0 auto;
+}
+
+.radio-label {
+  margin-right: 3%;
+}
+
+fieldset {
+    text-align: center;
+}
+div {
+     display:inline;
+        border: 1px solid black;
+}
+body
+{
+
+    margin-left:                       -512px;
+    margin-top:                        -384px;
+    position:                        absolute;
+    height:                             768px;
+    width:                             1024px;
+    left:                                 50%;
+    top:                                  50%;
+}
+html {
+    position: relative;
+    min-width: 1024px;
+    min-height: 768px;
+    height: 100%;
+}
+
+    </style>
+
+
+<script type="text/javascript" src="{{ url_for('static', filename='js/getcd.js') }}"></script>
+<script>
+
+       function ready() {
+    var seconds_left = 4;
+    document.getElementById('ready').style.display = 'none';
+var interval = setInterval(function() {
+
+var c= "<p align='center'> Displaying question in :"+ --seconds_left + "</p>";
+    document.getElementById('div1').innerHTML = c
+
+    if (seconds_left <= 0)
+    {
+        document.getElementById('div1').style.display = 'none';
+        document.getElementById('play').style.display = 'none';
+       document.getElementById('viewques').style.display = 'block';
+
+      // document.getElementById('div1').innerHTML = document.getElementById('img1')
+       clearInterval(interval);
+       setTimeout("coord()",3000)
+    }
+}, 1000);
+
+}
+</script>
+
+
+</head>
+
+<body bgcolor="black" text="gray" id="video"  >
+
+
+<h3 align="center"> <font size="10">Question  </font></h3>
+
+<div align="center" id="player" >
+
+
+ <p id="play" text-align="center"> Play to watch the video: </p>
+
+    <video controls id="videofile" height="230" width="230" style="display:block; margin:0 auto">
+  <source src="{{ url_for('static', filename = 'video/speaker/obama.mp4') }}" type="video/mp4" >
+
+</video>
+ <div id="ready" text-align="center" style="display:block; margin:0 auto">
+     <font size="4">Are you ready to view the question?</font>
+<button type="button" onclick="ready()">Yes</button>
+</div>
+   <div id="div1" style="text-align:center">
+
+    </div>
+    <div id="viewques" style="display:none; margin:0 auto">
+<p align="center" id = "ques" > <font size="10"> Do you know the speaker in the video? </font> </p>
+    <br>
+
+
+<br>
+<form method="post" action="">
+<fieldset>
+    <legend>CHOOSE ONE:</legend>
+    <div>
+         <input class="radio-input" type="radio" name="test" value="yes" id="yes" checked="checked" />
+        <label class="radio-label"><font size="6">Yes</font></label>
+        <input class="radio-input" type="radio" name="test" id="no" value="no" />
+        <label class="radio-label"><font size="6"> No</font></label>
+        <input class="radio-input" type="radio" name="test" id="maybe" value="maybe" />
+        <label class="radio-label"><font size="6">Maybe</font> </label>
+    </div>
+</fieldset>
+
+<br>
+
+
+<br>
+
+ <input id="submit" type="submit" value="Next" style="margin:auto;display:block" >
+</form>
+
+    </div>
+<br>
+
+
+<br>
+</div>
+</body>
+</html>
