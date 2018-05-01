@@ -6,7 +6,7 @@ Run interview.py and open the page /admin (for admins) it at the local host with
 To begin the survey, the admin logs in to the system, adds the candidate name and details. Press record to start recording.
 Press playback to see the user's recorded survey. A simple admin page is shown:
 
-![Alt text](nitusharaff/Mousetracking/screenshots/Screenshot (22).png?raw=true "Title")
+![Alt text](/screenshots/Screenshot (22).png?raw=true "Title")
 
 
 
