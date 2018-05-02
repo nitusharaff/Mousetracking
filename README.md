@@ -17,21 +17,26 @@ The admin can then place the candidate on the chair with all sensors (eyetrackin
 The survey includes questions of different types including:
 
 <h3> Text based: </h3>
+
 ![Alt text](/screenshots/Screenshot1.png)
 
 
 <h3> Rating based: </h3>
+
 ![Alt text](/screenshots/Screenshot2.png)
 
 
 <h3> Audio/Video based: </h3>
+
 ![Alt text](/screenshots/Screenshot4.png)
 
 
 <h3> Image based: </h3>
+
 ![Alt text](/screenshots/Screenshot3.png)
 
 The mouse- tracking done in the backend gets data in the format:
+
 ![Alt text](/screenshots/Screenshot7.png)
 
 
