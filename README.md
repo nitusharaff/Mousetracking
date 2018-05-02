@@ -1,5 +1,7 @@
+
 # Mousetracking
-<h1>Track mouse and keyboard keys and repeat them during a survey -- Research Study for recognizing human emotions</h1>
+
+<h1> Research Study for recognizing human emotions</h1>
 
 The objective is to determine the emotion of a person taking a survey by tracking mouse and keyboard. For example, if the response time between opening the page and answering is long, the person is not confident.
 
