@@ -3,7 +3,7 @@
 
 <h1> Research Study for recognizing human emotions</h1>
 
-The objective is to determine the emotion of a person taking a survey by tracking mouse and keyboard. For example, if the response time between opening the page and answering is long, the person is not confident.
+The objective is to determine the emotion of a person taking a survey by tracking mouse and keyboard. For example, if the response time between opening the page and answering is long, the person is not confident. The data collected will be fed to Machine Learning algorithms to visualize the data and recognize emotions from them.
 
 
 Run interview.py and open the page "/admin" (for admins) it at the local host with port connected.
@@ -65,3 +65,7 @@ Quiz- quiz ID linking questions
 Static- audios/videos/images
 Subjects- directory for each subject taking the survey
 Templates- HTML templates for the each quiz question
+
+
+
+
