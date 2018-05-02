@@ -55,7 +55,7 @@ Quiz.py - generates quiz questions based on the quiz ID given by admin</br>
 db.py - connects to the MySQL database</br>
 dbase.py - functions for accessing and modifications in the database</br>
 model.py - functions to create user directory, record and playback</br>
-mouse.py - functions to record the mouse events</br>
+keym.py - functions to record the mouse events</br>
 playback.py - fucntions to playback the entire survey </br>
 
 
