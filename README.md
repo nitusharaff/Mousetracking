@@ -40,15 +40,15 @@ This survey can be played back in the same motion as the user answered.
 
 
 
-<h3> FILES: </h3>
+<h3> FILES: </h3> </br>
 
-interview.py - (main page) opens the admin page and generates questions or playback as per the admin response
-admin.py - checks admin ID password
-Quiz.py - generates quiz questions based on the quiz ID given by admin
-db.py - connects to the MySQL database
-dbase.py - functions for accessing and modifications in the database
-model.py - functions to create user directory, record and playback
-mouse.py - functions to record the mouse events
-playback.py - fucntions to playback the entire survey
+interview.py - (main page) opens the admin page and generates questions or playback as per the admin response </br>
+admin.py - checks admin ID password </br>
+Quiz.py - generates quiz questions based on the quiz ID given by admin</br>
+db.py - connects to the MySQL database</br>
+dbase.py - functions for accessing and modifications in the database</br>
+model.py - functions to create user directory, record and playback</br>
+mouse.py - functions to record the mouse events</br>
+playback.py - fucntions to playback the entire survey </br>
 
 
