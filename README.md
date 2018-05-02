@@ -6,7 +6,7 @@
 The objective is to determine the emotion of a person taking a survey by tracking mouse and keyboard. For example, if the response time between opening the page and answering is long, the person is not confident.
 
 
-Run interview.py and open the page /admin (for admins) it at the local host with port connected.
+Run interview.py and open the page "/admin" (for admins) it at the local host with port connected.
 
 To begin the survey, the admin logs in to the system, adds the candidate name and details. Press record to start recording.
 Press playback to see the user's recorded survey. A simple admin page is shown:
