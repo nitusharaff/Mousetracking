@@ -1,5 +1,8 @@
 # Mousetracking
-<h1>Track mouse and keyboard keys and repeat them during a survey -- Research Study</h1>
+<h1>Track mouse and keyboard keys and repeat them during a survey -- Research Study for recognizing human emotions</h1>
+
+The objective is to determine the emotion of a person taking a survey by tracking mouse and keyboard. For example, if the response time between opening the page and answering is long, the person is not confident.
+
 
 Run interview.py and open the page /admin (for admins) it at the local host with port connected.
 
@@ -8,7 +11,44 @@ Press playback to see the user's recorded survey. A simple admin page is shown:
 
 ![Alt text](/screenshots/Screenshot5.png)
 
+The admin can then place the candidate on the chair with all sensors (eyetracking, ECG, etc. ) when the browser shows like:
+![Alt text](/screenshots/Screenshot6.png)
+
+The survey includes questions of different types including:
+
+<h3> Text based: </h3>
+![Alt text](/screenshots/Screenshot1.png)
 
 
+<h3> Rating based: </h3>
+![Alt text](/screenshots/Screenshot2.png)
+
+
+<h3> Audio/Video based: </h3>
+![Alt text](/screenshots/Screenshot4.png)
+
+
+<h3> Image based: </h3>
+![Alt text](/screenshots/Screenshot3.png)
+
+The mouse- tracking done in the backend gets data in the format:
+![Alt text](/screenshots/Screenshot7.png)
+
+
+This survey can be played back in the same motion as the user answered.
+
+
+
+
+<h3> FILES: </h3>
+
+interview.py - (main page) opens the admin page and generates questions or playback as per the admin response
+admin.py - checks admin ID password
+Quiz.py - generates quiz questions based on the quiz ID given by admin
+db.py - connects to the MySQL database
+dbase.py - functions for accessing and modifications in the database
+model.py - functions to create user directory, record and playback
+mouse.py - functions to record the mouse events
+playback.py - fucntions to playback the entire survey
 
 
