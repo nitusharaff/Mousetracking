@@ -59,3 +59,9 @@ mouse.py - functions to record the mouse events</br>
 playback.py - fucntions to playback the entire survey </br>
 
 
+<h3> FOLDERS: </h3> </br>
+Question- List of all questions
+Quiz- quiz ID linking questions
+Static- audios/videos/images
+Subjects- directory for each subject taking the survey
+Templates- HTML templates for the each quiz question
